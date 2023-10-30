@@ -25,6 +25,5 @@ public class User {
     String lastname;
 
     @Column()
-    @NotBlank()
     int age;
 }
